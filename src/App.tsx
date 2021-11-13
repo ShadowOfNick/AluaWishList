@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        Trying to get all of this to Git
+        Done, it's all Deployed
       </header>
     </div>
   );
