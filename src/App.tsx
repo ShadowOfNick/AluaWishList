@@ -182,7 +182,6 @@ function App() {
               href: 'https://eur.shein.com/Slide-Camera-Cover-Phone-Case-With-Ring-Holder-p-2742243-cat-1925.html?scici=Wishlist~~Wishlist~~1~~Wishlist~~0',
             },
           ],
-
         },
         {
           title: 'Apple watch',
