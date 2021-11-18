@@ -7,35 +7,35 @@ function App() {
   return (
     <MainList
       item={[
-        {
-          title: 'тесла',
-          image: 'https://img.auto.cz/img/29/normal690/3934002_tesla-elektromobil-novemodely-video-sportovni-roadster-v1.jpg?v=1',
-          text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
-          variants: [
-            {
-              title: 'one',
-              href: '/',
-            },
-            {
-              title: 'two',
-              href: '/',
-            },
-            {
-              title: 'three',
-              href: '/',
-            },
-          ],
-          link: 'https://www.google.com/',
-        },
-        {
-          title: 'ноутбук',
-          image: 'https://source.unsplash.com/featured/?laptop',
-        },
-        {
-          title: 'квартира',
-          image: 'https://source.unsplash.com/featured/?house',
-          text: 'Квартира 2-х или 3-х комнатная'
-        },
+        // {
+        //   title: 'тесла',
+        //   image: 'https://img.auto.cz/img/29/normal690/3934002_tesla-elektromobil-novemodely-video-sportovni-roadster-v1.jpg?v=1',
+        //   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+        //   variants: [
+        //     {
+        //       title: 'one',
+        //       href: '/',
+        //     },
+        //     {
+        //       title: 'two',
+        //       href: '/',
+        //     },
+        //     {
+        //       title: 'three',
+        //       href: '/',
+        //     },
+        //   ],
+        //   link: 'https://www.google.com/',
+        // },
+        // {
+        //   title: 'ноутбук',
+        //   image: 'https://source.unsplash.com/featured/?laptop',
+        // },
+        // {
+        //   title: 'квартира',
+        //   image: 'https://source.unsplash.com/featured/?house',
+        //   text: 'Квартира 2-х или 3-х комнатная'
+        // },
         {
           title: 'dyson v15',
           image: 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/floorcare/sticks/v15-detect/pdp/fullwidth/01-V15-Detect-%20Most-powerful-%20LB-PDP.jpg?$responsive$&cropPathE=desktop&fit=stretch,1&wid=1920',
@@ -397,14 +397,14 @@ function App() {
           image: 'https://cc.cz/wp-content/uploads/2021/02/ps5-1-1640x872.jpg',
           text: 'buy it myself but I have no idea where',
         },
-        {
-          title: 'машину маме',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
-        },
-        {
-          title: 'дом родителям',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
-        },
+        // {
+        //   title: 'машину маме',
+        //   image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+        // },
+        // {
+        //   title: 'дом родителям',
+        //   image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+        // },
         {
           title: 'когтеточка для Ремби',
           image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
@@ -433,10 +433,10 @@ function App() {
           title: 'акробатика',
           image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
         },
-        {
-          title: 'домработница',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
-        },
+        // {
+        //   title: 'домработница',
+        //   image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+        // },
         {
           title: 'лазерная эпиляция',
           image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
@@ -453,11 +453,11 @@ function App() {
           title: 'storytell',
           image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
         },
-        {
-          title: 'краловский куни',
-          image: 'https://цветочныйрай.рф/upload/medialibrary/db1/db194e41e04ee990aa3b6efe709f2404.png',
-          link:'https://www.intimshop.ru/sex-faq/voprosi_o_seksualnih_praktikah/kak_delat_kunnilingus_5_luchshi.html'
-        },
+        // {
+        //   title: 'краловский куни',
+        //   image: 'https://цветочныйрай.рф/upload/medialibrary/db1/db194e41e04ee990aa3b6efe709f2404.png',
+        //   link:'https://www.intimshop.ru/sex-faq/voprosi_o_seksualnih_praktikah/kak_delat_kunnilingus_5_luchshi.html'
+        // },
       ]}
     />
   );
