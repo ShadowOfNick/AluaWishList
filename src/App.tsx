@@ -30,6 +30,7 @@ function App() {
         // {
         //   title: 'ноутбук',
         //   image: 'https://source.unsplash.com/featured/?laptop',
+        //   link: 'https://www.alza.cz/search.htm?exps=macbook+pro'
         // },
         // {
         //   title: 'квартира',
@@ -99,19 +100,19 @@ function App() {
         },
         {
           title: 'пальто',
-          text: 'длинное черное, бежевое, или красное ',
+          text: 'длинное (черное, бежевое, или красное) ',
           image: 'https://i.pinimg.com/originals/10/2f/6e/102f6e65af4472b7ce9619f2c357c99f.png',
         },
         {
           title: 'кошелек coach',
-          image: 'https://www.levne-hadry.cz/images/products/417bdff1b626662f9ff29ccc4437343c.png',
-          text:'добавлю позже, его нет в магазине',
-          link: 'https://www.zalando.cz/',
+          image: 'https://img01.ztat.net/article/spp-media-p1/76f7cbf0a73a35debfe520aba4f061ac/96d95bb9322e44528065e22603305c1b.jpg?imwidth=1800',
+          text:'его нет в магазинe, можно похожий',
+          link: 'https://www.zalando.cz/coach-colorblock-coated-tabby-small-penezenka-tanblack-coh51f03l-q11.html',
         },
         {
           title: 'кольца',
           image: 'https://manrule.ru/images/article/orig/2020/02/muzhskie-perstni-kak-vybrat-i-nosit-9.jpg',
-          text: 'в Дрездене и в новых странах, которые посетим',
+          text: 'в Дрездене и в новых странах, которые посетим, либо тот что в ссылке',
           link: 'https://www.aliexpress.com/item/1005001561571304.html?spm=a2g0o.cart.0.0.56e43c00Eshag4&mp=1'
         },
       
@@ -123,7 +124,8 @@ function App() {
         {
           title: 'řasokoule',
           image: 'https://img.superzoo.cz/galerie/1_72585/rasokoule-starter-kit-2-default.jpg?v=1617686196',
-          link: 'https://www.superzoo.cz/rasokoule-starter-kit-2/',
+          link: 'https://rasokoule.eu/kategorie-produktu/rasokoule/',
+          text: 'среднюю и  большую'
         },
         {
           title: 'нижнее белье',
@@ -240,14 +242,17 @@ function App() {
         {
           title: 'шапка', //buy myself
           image: 'https://cdn.sportmaster.ua/static/i/2000_2000/products/243087/2KjLaM58.jpeg',
+          text: 'куплю сама',
         },
         {
           title: 'кепка', //buy myself
           image: 'https://contents.mediadecathlon.com/p1793800/kb04c0d746384fc2cb42f4830683f2379/1793800_default.jpg?format=auto&quality=60&f=800x0',
+          text: 'куплю сама',
         },
         {
           title: 'шарф',//buy myself
           image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ZnryDdhwYzcIlD3XkmWzED743bq5Oj1FeQ&usqp=CAU',
+          text: 'куплю сама',
         },
         {
           title: 'Клетчатая рубашка',
@@ -284,12 +289,13 @@ function App() {
         {
           title: 'пленка для фотоаппарата',
           image: 'https://cdn.shopify.com/s/files/1/0073/7276/7316/products/600_cassets@2x.jpg?v=1590072281',
-          text: 'you know better',
+          text: 'color itype film',
+          link: 'https://www.muziker.cz/polaroid-color-film-for-i-type-2-pack?new_filter=1&utm_source=google&utm_medium=organic&utm_campaign=free-listings&gclid=CjwKCAiAv_KMBhAzEiwAs-rX1CGrJbT15qsn-DThAfuCmZJDIC760V06nP-8hDyWX285NQDBEEZhdRoCGUIQAvD_BwE'
         },
         {
-          title: 'красивая посуда',
-          image: 'https://l-avantage.ru/wp-content/uploads/2020/01/modnay-posuda-2020.jpg',
-          text: 'add later',
+          title: 'красивые бокалы',
+          image: 'https://images.food52.com/tqTucyLFhKTqZK78Tlia16jvMBc=/c5db3800-0dc8-4a2e-9e1f-d7cb3afc2722--16501591855_2dffcdb849_b.jpg',
+          link: 'https://www.nordicnest.com/brands/ferm-living/ripple-champagne-glass-2-pack/?variantId=29218-01&country=CZ&utm_source=google&utm_medium=surfaces&gclid=CjwKCAiAv_KMBhAzEiwAs-rX1KBGpwDx9bo8mmOEBcc_njtYsa7ONg_6lmtdEsTjauNRMmU8QmwpXBoCtMYQAvD_BwE'
         },
         {
           title: 'macallan',
@@ -317,7 +323,8 @@ function App() {
         {
           title: 'рюкзак',
           image: 'https://ae01.alicdn.com/kf/H519d1dc7b4494522b2ada9438f96c43eA.jpg?width=750&height=1018&hash=1768',
-          link: 'https://www.zalando.cz/doughnut-macaroon-batoh-chestnut-d0e54o019-o11.html'
+          link: 'https://www.zalando.cz/doughnut-macaroon-batoh-chestnut-d0e54o019-o11.html',
+          text: 'неоьязательно такой, и вообще все что ты видишь, можешь не ссылки заказывать, а аналоги найти кроме дайсона;)',
         },
         {
           title: 'шопер',
@@ -331,19 +338,14 @@ function App() {
           link: 'https://www.aliexpress.com/item/4001195247436.html?spm=a2g0o.cart.0.0.1aed3c006cMw5X&mp=1'
         },
         {
-          title: 'красивые бокалы',
-          image: 'https://berkem.ru/wp-content/uploads/2019/10/Bokaly-Bogemiya-vinnye-foto.jpg.webp',
-          text: 'add later',
-        },
-        {
           title: 'домашние тапочки',
           image: 'https://marmalato.ru/upload/iblock/f07/f0784cd7a7f1366c48d08af95ca1327b.jpg',
-          text: 'buy it myself',
+          text: 'куплю сама',
         },
         {
           title: 'солнечные очки',
-          image: 'https://i.pinimg.com/originals/3a/44/2f/3a442f5cf076845af9257196de6fcd55.jpg',
-          text: 'add later',
+          image: 'https://i.ebayimg.com/images/g/nOQAAOSw9k5XQIhE/s-l300.jpg',
+          text: 'красные круглые',
         },
         {
           title: 'рубашки',
@@ -380,78 +382,108 @@ function App() {
         {
           title: 'tattoo',
           image: 'https://scene360.com/wp-content/uploads/2019/10/artem-koro-interview-06.jpg',
-          link: 'https://www.instagram.com/duhovka.ink/?hl=ru'
+          link: 'https://www.instagram.com/duhovka.ink/?hl=ru',
+          text: 'прост можешь бабки дать:D'
         },
         {
-          title: 'микродермалы',
+          title: 'прокол микродермалы',
           image: 'https://i.styleoholic.com/2019/09/a-double-microdermal-piercing-under-the-collarbone-to-highlight-your-beauty.jpg',
-          link: 'https://bloodybluetattoo.cz/'
+          link: 'https://bloodybluetattoo.cz/',
         },
         {
           title: 'GoPro',
           image: 'https://www.smarty.cz/pic/DI1S600301-600-600.webp',
-          text: 'buy it myself',
+          text: 'куплю сама тебе',
         },
         {
           title: 'playstation 5',
           image: 'https://cc.cz/wp-content/uploads/2021/02/ps5-1-1640x872.jpg',
-          text: 'buy it myself but I have no idea where',
+          text: 'куплю сама тебе, без понятия как',
         },
         // {
         //   title: 'машину маме',
-        //   image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+        //   image: 'https://mediapool.bmwgroup.com/cache/P9/202108/P90432164/P90432164-the-new-bmw-ix3-8-2021-600px.jpg',
         // },
         // {
         //   title: 'дом родителям',
-        //   image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+        //   image: 'https://wipliance.com/images/easyblog_articles/16/wipliance-jaymarc.jpg',
         // },
         {
           title: 'когтеточка для Ремби',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://shop-cdn-m.mediazs.com/bilder/krabadlo/pernkov/chaloupka/xxl/s/rampou/8/800/72125_knusperhaeuschen_xxl_fg_9421_8.jpg',
+          link: 'https://www.zoohit.cz/shop/kocky/skrabadla_odpocivadla/strom_velky/180_cm/376493'
+
         },
         {
-          title: 'холодный блонд',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          title: 'перекраситься в холодный блонд',
+          image: 'https://pix-feed.com/wp-content/uploads/2018/07/8-min-7.jpg',
+          text: 'money ;)',
         },
         {
           title: 'витамины',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/03/pills-vitamins-pill-1296x728-header.jpg?w=1155&h=1528',
+          text: 'ask me what I need',
+          link: 'www.iherb.com'
         },
         {
           title: 'тенис',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://blog.eobuv.cz/wp-content/uploads/2020/05/pUVgFRGH5TqugnKs1s8shylpO2EIlxkqbPHRfpAk9zo3sIodACK2dMljXN4bmBwsud8kLdHHcYK39jZy9ol3r2zKByZUQiBE0JcZMRa-qSb0KF3fsxrrVaR4xqim3g2HfHqbdF6HgiGp-Tjjdw-auOdHF.tmp_.jpeg',
+          link: 'https://www.tenisujezd.cz/', 
+          text: 'с тренером занятия',
         },
         {
           title: 'спортзал с бассейном',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://previews.123rf.com/images/geckophotos/geckophotos1803/geckophotos180301081/98008533-interior-of-public-swimming-pool-in-a-luxury-fitness-gym-.jpg',
+          link: 'https://www.formfactory.cz/klub/fitness-vrsovicka/'
         },
         {
-          title: 'пилон',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
-        },
-        {
-          title: 'акробатика',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          title: 'абонимент на пилон',
+          image: 'https://www.fittyn.cz/wp-content/uploads/2017/08/poledance.jpg',
+          link: 'https://instagram.com/fame_pole_studio?utm_medium=copy_link'
         },
         // {
         //   title: 'домработница',
-        //   image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+        //   image: 'https://public.superjob.ru/images/profi_articles/image/5305_df6d4c9d43ecf09d52f3cef26a48db12.jpg',
+        //   text: 'позже найму, пока я и есть эта домработница'
         // },
         {
           title: 'лазерная эпиляция',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN_yBepeEOeJsL2DuUSHHDk-eQ6ytGm_EQIA&usqp=CAU',
+          text: 'money;)',
         },
         {
           title: 'обувь для танцев',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://t4.ftcdn.net/jpg/02/96/21/55/360_F_296215503_HnC4j3oU49MXj7XTMPQvCbyluj0IVUed.jpg',
+          variants: [
+            {
+              title: 'V1',
+              href: 'https://www.sexystore.cz/boty-obuv-na-podpatku-s-platformou/luxusni-cerne-paskove-kotnikove-sexy-boty-na-podpatku-delight-658-bpu-m/'
+            },
+            {
+              title: 'V2',
+              href: 'https://www.lightinthebox.com/cz/p/damske-boty-lodicky-obla-spicka-sexy-party-snerovani-jednobarevne-pu-kotnickove-bila-cerna-seda_p8138998.html?currency=CZK&litb_from=paid_adwords_shopping&sku=1_45%7C2_39562&country_code=cz&utm_source=google_shopping&utm_medium=cpc&adword_mt=&adword_ct=485712277810&adword_kw=&adword_pos=&adword_pl=&adword_net=u&adword_tar=&adw_src_id=2915975433_11826200579_114965856957_pla-1462650755908&gclid=Cj0KCQiA-eeMBhCpARIsAAZfxZC0QhSdQWSglChRqPVFK8Q13_Cz09htwD88qOJDqUjrAdWZ7bNptb4aAnCqEALw_wcB',
+            },
+            {
+              title:'V3',
+              href: 'https://www.sexystore.cz/boty-damske-kozacky-na-podpatku/tanecni-kozacky-flam1020-b-r/'
+            },
+            {
+              title:'V4',
+              href:'https://www.sexystore.cz/boty-obuv-na-podpatku-s-platformou/sexy-obuv-s-vysokym-podpatkem-bondgirl-768/'
+            },
+            {
+              title:'V5',
+              href:'https://www.sexystore.cz/boty-damske-kozacky-na-podpatku/bondgirl-1020pk-bond1020pk-bpu-m/'
+            },
+          ]
         },
         {
-          title: 'подписка на youtube',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          title: 'подписка на youtube без сранной рекламы',
+          image: 'https://www.youtube.com/img/desktop/yt_1200.png',
         },
         {
           title: 'storytell',
-          image: 'https://www.bosco.ru/upload/iblock/1a6/1a65c7e59b4e0c031ab4dd80a5fd06ac_1221_1607.jpg',
+          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Storytel_log.jpg/640px-Storytel_log.jpg',
         },
         // {
         //   title: 'краловский куни',
